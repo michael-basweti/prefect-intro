@@ -3,12 +3,12 @@ name = "intro-to-prefect"
 description = "An introductory project to Prefect"
 version = "0.1.0"
 authors = [
-    { name = "Bryan \"Beege\" Berry", email = "beege@codeseoul.org" }
+    { name = "michael \"alex\" basweti", email = "baswetima@gmail.com" }
 ]
 dependencies = [
-    "prefect ~= 2.13.2",
-    "httpx ~= 0.25.0",
-    "psycopg2-binary ~= 2.9.7"
+    "prefect>=3.0",
+    "httpx~=0.28",
+    "psycopg2-binary~=2.9.10"
 ]
 
 [project.optional-dependencies]
